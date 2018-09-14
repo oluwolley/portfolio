@@ -1,0 +1,517 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+html,body {
+  background-color:white;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;  
+  color:black;
+ overflow-x: hidden;
+}
+
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
+/*  Header */
+header{
+  
+ 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero{
+  position: absolute;
+  max-width: 1140px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+#head-p{
+font-size:200%;
+padding-left: 160px;
+color:black;
+letter-spacing: 1px;
+}
+
+
+.header-p p,
+ .header-p i{
+  color:#000;
+     
+}
+strong{
+    color: crimson;
+}
+.header-p i{
+  padding-left:44%;
+  padding-top:60px;
+  font-size:180%;
+  
+}
+
+
+/*  Navigatiob Bar */
+.logo{
+  position: fixed;
+  top:0;
+  color:black;
+  float:left;
+  margin-top: 20px;
+
+}
+.main-nav{
+  margin-top: 30px;
+ float: right;
+ list-style: none;
+  
+}
+.nav-bar {
+  margin-top: 15px;
+  display:none;
+  cursor: pointer;
+  float: right;
+  
+}
+.nav-bar  i{
+  font-size: 200%;
+  color:#000;
+
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+  padding: 10px 0;
+  color:#000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom: 2px solid rgba(237, 15, 45, 0.761);
+}
+
+
+
+.sticky{
+  position: fixed;
+  top:0;
+  right: 60px;
+  width:100;
+  background-color: rgba(34, 34, 34, 0.118);
+}
+
+
+/* section */
+
+.about-me  p{
+
+  font-size: 150%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height:3rem;
+  margin-bottom: 80px;
+}
+footer{
+  margin-bottom: 70px;
+
+}
+
+.my-work p{
+  font-size: 120%;
+  line-height:1.5rem;
+  letter-spacing: 1px;
+  padding: 20%;
+  word-spacing: 2px;
+  color:#ffffff;
+}
+.my-work-one{
+
+  background-image: url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:center;
+  height: 100%;
+  border-radius:10px;
+}
+.my-work-one:hover {
+  opacity: 1;
+}
+
+.my-work-one a,
+.my-work-two a{
+  
+  text-decoration: none;
+}
+/* .my-work-two ul li{
+    display: inline-block;
+    margin-left: 5%;
+    list-style: none;
+} */
+
+/* .my-work h2,.my-work-two p{
+  margin-top: 40px;
+  
+} */
+.my-work-two p{
+  text-align: center;
+  text-transform: uppercase;
+}
+.my-work p,.my-work-two ul{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  
+}
+.my-work-two{
+
+  background-image: url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-size: auto;
+  background-position:center;
+  height: 100%;
+  border-radius:10px;
+
+}
+
+.my-work-two:hover{
+  opacity: 1.0;
+ 
+}
+
+/* Footer And contact  */
+
+
+.contact ul li{
+  display: inline-block;
+   margin-left: 10px;
+    list-style: none;
+}
+
+
+.contact a{
+  text-decoration: none;
+  color: #000;
+}
+.contact p{
+  margin-bottom: 20px;
+  letter-spacing: 0px;
+  color: black;
+}
+
+small, ul{
+  margin-top: 35px;
+}
+
+
+
+
+
+
+/* Big Tablet to 1200px*/
+@media only screen and (max-width: 1200px){
+  .hero{
+    position: absolute;
+    max-width: 100%;
+    padding: 0 2%;
+   top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+  }
+
+  .row{
+    padding:0 2%;
+  }
+
+
+
+  html,body{
+    font-size: 18px;
+  }
+  
+
+
+/* Small Tablets - Big Tablets  from 767px - 1023px*/
+@media only screen and (max-width: 1023px){
+  
+html,body{
+  font-size: 18px;
+}
+
+
+.header-p i{
+  font-size: 180%;
+}
+#head-p{
+font-size:200%;
+padding-left: 80px;
+color:#000;
+letter-spacing: 1px;
+}
+
+.about-me  p{
+  font-size: 120%;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height:2rem;
+  margin-bottom: 50px;
+}
+
+.about-me h2{
+  padding-bottom: 20px;
+}
+.contact ul li{
+  display: inline-block;
+  margin-left:0;
+  list-style: none;
+}
+
+
+.my-work img{
+  padding-top: 0px;
+  height: 100px;
+  width:100px;
+}
+
+.project img{
+  width:100%;
+  border-radius: 10px;
+}
+
+}
+
+
+
+/* Small Phones to Small Tablets from 480px - 767*/
+@media only screen and (max-width: 767px){
+  html{
+    font-size: 16px;
+  }
+  .row,.hero{
+    padding:0 4%;
+  }
+  .col{
+    width: 100%;
+  }
+  .main-nav{
+    float: left;
+    margin-left: 70%;
+    display: none;
+  }
+  
+  .my-work h2{
+    margin-top: 5px;
+   
+  }
+    .nav-bar{
+        margin-top:6%;
+        display: inline-block;
+    }
+    .main-nav li{
+        display: block;
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+
+  .my-work p
+  {
+  
+    line-height:1.3rem;
+  }
+  
+  .my-work-two p{
+     color: #000;
+  }
+  .my-work ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+  
+  .my-work img{
+    padding-top: 0px;
+    height: 100px;
+    width: 100px;
+  }
+
+
+
+  .about-me  p{
+
+    font-size: 90%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height:2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-me h2{
+    padding-bottom: 10px;
+  }
+
+.header-p i{
+  font-size: 100%;
+}
+    
+#head-p{
+font-size:250%;
+padding-left: 20px;
+color:#000;
+letter-spacing: 1px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  color: crimson;
+ border-bottom: transparent;
+}
+  
+  
+
+.my-work > div{
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+    #contact{
+      
+        font-size: 90%;
+    }
+
+    .contact div ul{
+     
+     font-size: 90%;
+      
+    }
+
+
+    #head-p{
+      font-size:200%;
+      padding-left: 20px;
+      color:#000;
+      letter-spacing: 1px;
+      }
+      
+.logo{
+    width:10%;
+    height: 10%;
+}
+.project img{
+  width:100%;
+  border-radius: 10px;
+}
+    
+    
+}
+
+   
+
+
+
+
+/* Small Phones from 0 to 480px*/
+@media only screen and (max-width: 480px){
+  html,body{
+    font-size: 14px;
+  }
+
+  .hero{
+    position: absolute;
+    max-width: 1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+  }
+ 
+  .my-work img{
+    height: 80px;
+    width: 80px;
+    
+   
+  }
+
+  .my-work-two ul li img{
+    display: block;
+  }
+  #git{
+    padding-left:15px;}
+  
+
+    .col{
+      width: 100%;
+    }
+
+    .contact h5{
+
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.508);
+    }
+
+    .my-work-two{
+      padding-top: 30px;
+      margin-top: 30px;
+    
+     
+    }
+
+    .my-work-one p{
+      padding-top: 0;
+      margin-top: 20px;
+      
+      
+    }
+    .header-p{
+      padding: 0;
+      font-size: 100%;
+    } 
+    
+  
+#head-p{
+font-size:200%;
+padding-left: 0px;
+color:#000;
+letter-spacing: 1px;
+}
+
+
+.logo{
+  width:10%;
+  height: 10%;
+}
+
+.project img{
+  width:100%;
+  border-radius: 10px;
+}
+
+
+}}
