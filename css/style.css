@@ -8,14 +8,14 @@
 
 
 html,body {
-  background-color:white;
+  background-color: black;
   margin: 0px !important;
   padding: 0px !important;
   font-family: 'Catamaran', Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;  
-  color:black;
+  color:#fff;
  overflow-x: hidden;
 }
 
@@ -46,15 +46,15 @@ header{
 
 #head-p{
 font-size:200%;
-padding-left: 160px;
-color:black;
+padding-left: 90px;
+color:#fff;
 letter-spacing: 1px;
 }
 
 
 .header-p p,
  .header-p i{
-  color:#000;
+  color: rgba(255, 255, 255, 0.508);
      
 }
 strong{
@@ -92,7 +92,7 @@ strong{
 }
 .nav-bar  i{
   font-size: 200%;
-  color:#000;
+  color: #fff;
 
 }
 .main-nav li{
@@ -102,7 +102,7 @@ strong{
 .main-nav li a:link,
 .main-nav li a:visited{
   padding: 10px 0;
-  color:#000;
+  color:#fff;
   text-decoration: none;
   text-transform: uppercase;
   font-size:90%;
@@ -145,39 +145,27 @@ footer{
   font-size: 120%;
   line-height:1.5rem;
   letter-spacing: 1px;
-  padding: 20%;
   word-spacing: 2px;
-  color:#ffffff;
+  color: rgba(255, 255, 255, 0.857);
 }
 .my-work-one{
-
-  background-image: url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  opacity: 0.5;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position:center;
-  height: 100%;
-  border-radius:10px;
+  border-top: 5px solid rgba(237, 15, 45, 0.761);
+  height: 150px;
 }
-.my-work-one:hover {
-  opacity: 1;
-}
-
-.my-work-one a,
-.my-work-two a{
-  
-  text-decoration: none;
-}
-/* .my-work-two ul li{
+.my-work-two ul li{
     display: inline-block;
     margin-left: 5%;
     list-style: none;
-} */
-
-/* .my-work h2,.my-work-two p{
+}
+.my-work img{
+  height: 100%;
+  width: 100%;
+}
+.my-work h2,.my-work-two p{
+  border-top: 5px solid transparent;
   margin-top: 40px;
   
-} */
+}
 .my-work-two p{
   text-align: center;
   text-transform: uppercase;
@@ -187,47 +175,31 @@ footer{
   margin-bottom: 60px;
   
 }
-.my-work-two{
-
-  background-image: url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  background-size: auto;
-  background-position:center;
-  height: 100%;
-  border-radius:10px;
-
-}
-
-.my-work-two:hover{
-  opacity: 1.0;
- 
-}
 
 /* Footer And contact  */
 
 
 .contact ul li{
   display: inline-block;
-   margin-left: 10px;
+  
     list-style: none;
 }
-
-
+#git{
+  margin-left: 30px;
+}
 .contact a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
-.contact p{
+.contact h5{
   margin-bottom: 20px;
-  letter-spacing: 0px;
-  color: black;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.508);
 }
 
 small, ul{
-  margin-top: 35px;
+  margin-bottom: 5 0px;
 }
-
 
 
 
@@ -270,7 +242,7 @@ html,body{
 #head-p{
 font-size:200%;
 padding-left: 80px;
-color:#000;
+color:#fff;
 letter-spacing: 1px;
 }
 
@@ -291,16 +263,10 @@ letter-spacing: 1px;
   list-style: none;
 }
 
-
 .my-work img{
   padding-top: 0px;
   height: 100px;
   width:100px;
-}
-
-.project img{
-  width:100%;
-  border-radius: 10px;
 }
 
 }
@@ -345,7 +311,7 @@ letter-spacing: 1px;
   }
   
   .my-work-two p{
-     color: #000;
+     color: #fff;
   }
   .my-work ul li{
     display: inline-block;
@@ -382,7 +348,7 @@ letter-spacing: 1px;
 #head-p{
 font-size:250%;
 padding-left: 20px;
-color:#000;
+color:#fff;
 letter-spacing: 1px;
 }
 
@@ -415,17 +381,13 @@ letter-spacing: 1px;
     #head-p{
       font-size:200%;
       padding-left: 20px;
-      color:#000;
+      color:#fff;
       letter-spacing: 1px;
       }
       
 .logo{
     width:10%;
     height: 10%;
-}
-.project img{
-  width:100%;
-  border-radius: 10px;
 }
     
     
@@ -498,7 +460,7 @@ letter-spacing: 1px;
 #head-p{
 font-size:200%;
 padding-left: 0px;
-color:#000;
+color:#fff;
 letter-spacing: 1px;
 }
 
@@ -508,10 +470,7 @@ letter-spacing: 1px;
   height: 10%;
 }
 
-.project img{
-  width:100%;
-  border-radius: 10px;
-}
+ 
 
 
 }}
